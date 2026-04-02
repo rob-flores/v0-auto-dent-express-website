@@ -9,7 +9,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      
+
       <main className="flex-1">
         {/* Page Header */}
         <section className="bg-foreground text-background py-16 md:py-24">
@@ -26,7 +26,7 @@ export default function AboutPage() {
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <ImagePlaceholder 
+                <ImagePlaceholder
                   label="Add a photo of your shop, team, or owner"
                   aspectRatio="square"
                 />
@@ -34,7 +34,7 @@ export default function AboutPage() {
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold">Our Story</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Add your company story here. Describe how Auto Dent Express King was founded, your mission, and your journey so far.
+                  Ad your company story here. Describe how Auto Dent Express King was founded, your mission, and your journey so far.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   Add more details about your experience, passion for the work, and commitment to customer satisfaction.
@@ -92,7 +92,7 @@ export default function AboutPage() {
                 Add a brief introduction to your company values and principles.
               </p>
             </div>
-            
+
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="p-6 border border-border rounded-lg bg-card">
                 <h3 className="text-xl font-semibold mb-3">Value #1</h3>
@@ -125,11 +125,11 @@ export default function AboutPage() {
                 Add a brief description of your team and their expertise.
               </p>
             </div>
-            
+
             <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               {[1, 2, 3].map((i) => (
                 <div key={i} className="text-center">
-                  <ImagePlaceholder 
+                  <ImagePlaceholder
                     label="Team member photo"
                     aspectRatio="square"
                     className="mb-4 max-w-[200px] mx-auto rounded-full"
@@ -154,11 +154,11 @@ export default function AboutPage() {
                 List your industry certifications, training, and professional affiliations.
               </p>
             </div>
-            
+
             <div className="flex flex-wrap justify-center gap-8">
               {[1, 2, 3, 4].map((i) => (
                 <div key={i} className="w-32 h-32">
-                  <ImagePlaceholder 
+                  <ImagePlaceholder
                     label={`Cert ${i}`}
                     aspectRatio="square"
                     className="h-full"
